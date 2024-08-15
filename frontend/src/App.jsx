@@ -1,4 +1,4 @@
-import './App.css'
+
 import React from 'react'
 import Navbar from "../src/navbar/Navbar"
 import LadingPage from './landingpage/LandingPage'

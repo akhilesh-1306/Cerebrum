@@ -10,7 +10,7 @@ export default function BlogImageLeft({mainImage,title,content}){
                 </div>
                 <div className="col-4">
                     {/* <p> {content} </p> */}
-                    <h1>Title</h1>
+                    <a href="#" ><h3>Title</h3></a>
                     <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis voluptate sunt adipisci nemo aliquam consectetur iure voluptatem saepe necessitatibus dicta, illo, distinctio quas dignissimos ullam autem qui fuga aspernatur libero! </p>
                     <p className="text-center fs-6">-Author</p>
                 </div>
