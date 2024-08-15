@@ -1,0 +1,17 @@
+.footer-left{
+    border-top: 2px solid black;
+  }
+  
+.footer-right{
+    border-top: 2px solid black;
+}
+
+.social-media{
+    padding:2rem 8rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* .social-media i{
+    margin-left: 5rem;
+} */

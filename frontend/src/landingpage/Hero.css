@@ -1,0 +1,16 @@
+.hero-image img{
+    width: 100%;
+    height: 80vh;
+}
+
+.Hero-landing-page{
+    position: relative;
+    color: rgb(0, 0, 0);
+}
+
+.hero-text{
+    position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+}    
