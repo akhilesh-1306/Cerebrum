@@ -7,7 +7,7 @@ import Footer from './footer/Footer'
 import ExplorePage from "./explorepage/ExplorePage";
 import WritePage from './write/WritePage'
 import ProfilePage from "./profile/ProfilePage";
-import PageNotFound from '../pageNotFound/pageNotFound'
+import PageNotFound from './pageNotFound/pageNotFound'
 
 
 function App() {

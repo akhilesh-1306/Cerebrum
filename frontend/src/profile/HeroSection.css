@@ -11,3 +11,8 @@
 .btn{
     width: 20%;
 }
+
+.edit-button{
+    display: flex;
+    justify-content: center;
+}
