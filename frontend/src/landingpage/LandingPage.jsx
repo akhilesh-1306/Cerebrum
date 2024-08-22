@@ -5,7 +5,7 @@ export default function LadingPage(){
     return(
         <div>
             <Hero/>
-            <DemoBLogs/>
+            {/* <DemoBLogs/> */}
         </div>
     )
 }

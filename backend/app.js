@@ -15,18 +15,18 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 
-// app.get("/addPosts",async(req,res)=>{
-//     posts.forEach((item)=>{
-//         let tempPost = new Post({
-//             title : item.title,
-//             content : item.content,
-//             image : item.image,
-//             comment : item.comments,
-//         });
-//         tempPost.save();
-//     });
-//     res.send("Data has been saved");
-// })
+app.get("/addPosts",async(req,res)=>{
+    posts.forEach((item)=>{
+        let tempPost = new Post({
+            title : item.title,
+            content : item.content,
+            image : item.image,
+            comment : item.comments,
+        });
+        tempPost.save();
+    });
+    res.send("Data has been saved");
+})
 
 app.get("/allPosts",async(req,res)=>{
     let allPosts = await Post.find({});
