@@ -18,7 +18,7 @@ export default function ExplorePage(){
             <div className="row">
             {allPosts.map((post, index) => {
                 return (
-                <div className="col-6">
+                <div className="col-12">
                     <BlogImageLeft content={post.content} title={post.title} mainImage={post.image.url}/>
                 </div>
                 )

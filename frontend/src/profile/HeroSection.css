@@ -16,3 +16,8 @@
     display: flex;
     justify-content: center;
 }
+
+.user-icon{
+    font-size: 5rem;
+    padding: 2rem;
+}

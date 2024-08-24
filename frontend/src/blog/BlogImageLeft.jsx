@@ -2,9 +2,9 @@ import "./Blog.css"
 
 export default function BlogImageLeft({mainImage,title,content}){
     return (
-        <div className="container mb-5 mt-5">
-            <div className="row">
-                <div className=" blog-image-section col-6">
+        <div className="container mt-5">
+            <div className="row image-wrapper">
+                <div className="blog-image-section col-6">
                     {/* <img src={mainImage}></img> */}
                     <img src={mainImage} alt="image"></img>
                 </div>
@@ -18,3 +18,4 @@ export default function BlogImageLeft({mainImage,title,content}){
         </div>
     )
 }
+

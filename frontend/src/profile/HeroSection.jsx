@@ -6,8 +6,9 @@ export default function HeroSection(){
             <div className="row">
                 <div className="col-2"></div>
                 <div className="col-8">
-                    <div className="row profile-image">
-                        <img src="../../public/heroImage.png"></img>
+                    <div className="row profile-image text-center">
+                        {/* <img src="../../public/heroImage.png"></img> */}
+                        <i class="user-icon fa-regular fa-user"></i>
                     </div>
                     <div className="row profile-details text-center">
                         <h4>Username : </h4>
