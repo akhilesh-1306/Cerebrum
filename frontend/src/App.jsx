@@ -8,6 +8,8 @@ import ExplorePage from "./explorepage/ExplorePage";
 import WritePage from './write/WritePage'
 import ProfilePage from "./profile/ProfilePage";
 import PageNotFound from './pageNotFound/pageNotFound'
+import Signup from './signup/Signup'
+import Login from './login/Login'
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
       {/* <LadingPage/> */}
       <Routes>
           <Route path='/' element={<LadingPage/>} ></Route>
+          <Route path='/signup' element={<Signup />} ></Route>
+          <Route path='/login' element={<Login />} ></Route>
           <Route path='/explore' element={<ExplorePage />} ></Route>
           <Route path='/write' element={<WritePage/>}></Route>
           <Route path='/profile' element={<ProfilePage/>}></Route>

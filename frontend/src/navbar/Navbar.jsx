@@ -28,6 +28,14 @@ export default function Navbar() {
                                 {/* <a class="nav-link" href="#">Profile</a> */}
                                 <Link class="nav-link" to="/profile">Profile</Link>
                             </li>
+                            <li class="nav-item">
+                                {/* <a class="nav-link" href="#">Profile</a> */}
+                                <Link class="nav-link" to="/signup">Signup</Link>
+                            </li>
+                            <li class="nav-item">
+                                {/* <a class="nav-link" href="#">Profile</a> */}
+                                <Link class="nav-link" to="/login">Login</Link>
+                            </li>
                         </ul>
                         {/* <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
